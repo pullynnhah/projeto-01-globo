@@ -1,3 +1,12 @@
-@media (min-width: 600px) {
+@media (max-width: 600px) {
+  /* styling header */
+  .logo:first-child {
+    display: none;
+  }
 
+  .logo:last-child {
+    display: initial;
+    width: 208px;
+    height: 57px;
+  }
 }

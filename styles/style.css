@@ -1,3 +1,23 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+/* styling header */
+header {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo:first-child {
+  width: 171px;
+  height: 36px;
+}
+.logo:last-child {
+  display: none;
+}
