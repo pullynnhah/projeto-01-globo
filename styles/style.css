@@ -18,6 +18,158 @@ header {
   width: 171px;
   height: 36px;
 }
+
 .logo:last-child {
   display: none;
+}
+
+/* styling navbar */
+.navbar {
+  height: 45px;
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+
+  display: flex;
+  align-items: center;
+}
+
+nav:first-child {
+  width: 1250px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav:last-child {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 19px;
+  line-height: 24px;
+}
+
+/* nav's colors */
+.g1 {
+  color: #c3170c;
+}
+
+.oglobo {
+  color: #1e4b9b;
+}
+
+.valor {
+  color: #006766;
+}
+
+.ge {
+  color: #07aa47;
+}
+
+.cartola {
+  color: #e3662b;
+}
+
+.globoplay {
+  color: #fb0735;
+}
+
+.dropz {
+  color: #ff75bb;
+}
+
+.gshow {
+  color: #ec7d00;
+}
+
+.quem {
+  color: #323333;
+}
+
+.receitas {
+  color: #a81d83;
+}
+
+/* styling main */
+main {
+  width: 1250px;
+  margin: 34px auto;
+  display: flex;
+}
+
+.g1-news {
+  width: 666px;
+}
+
+/* styling headlines */
+.headlines {
+  padding-bottom: 18px;
+  border-bottom: 1px solid #ebedef;
+}
+
+h2 {
+  color: #c4160c;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  margin-bottom: 29px;
+}
+
+.headline {
+  color: #303134;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 23px;
+  margin-bottom: 7px;
+}
+
+/* styling news */
+.horizontal-news-group {
+  width: 666px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0 36px;
+  border-bottom: 1px solid #ebedef;
+}
+.small-news {
+  width: 193px;
+}
+
+.small-news img {
+  width: 193px;
+  height: 110px;
+  border-radius: 12px;
+}
+
+.g1-title {
+  color: #c4170c;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  margin: 11px 0 6px;
+}
+
+h3 {
+  color: #2f3134;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+
+.quote {
+  color: #2f3134;
+  font-size: 14px;
+  line-height: 19px;
 }
