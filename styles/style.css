@@ -115,6 +115,9 @@ main {
 /* styling headlines */
 .headlines {
   padding-bottom: 18px;
+}
+
+.border-bottom {
   border-bottom: 1px solid #ebedef;
 }
 
@@ -135,13 +138,14 @@ h2 {
 }
 
 /* styling news */
+/* g1-news */
 .horizontal-news-group {
   width: 666px;
   display: flex;
   justify-content: space-between;
   padding: 25px 0 36px;
-  border-bottom: 1px solid #ebedef;
 }
+
 .small-news {
   width: 193px;
 }
@@ -173,3 +177,9 @@ h3 {
   font-size: 14px;
   line-height: 19px;
 }
+
+.news {
+  width: 192px;
+}
+
+/* ge-news */

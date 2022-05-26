@@ -72,6 +72,7 @@
   }
 
   /* styling news */
+  /* g1-news */
   .horizontal-news-group {
     padding: 0;
     width: inherit;
@@ -79,7 +80,8 @@
     border-bottom: none;
   }
 
-  .small-news {
+  .small-news,
+  .news {
     width: inherit;
     padding: 20px 0 9px 0;
     border-bottom: 1px solid #e6e6e6;
