@@ -55,7 +55,7 @@
 
   h2,
   .headline,
-  h3,
+  .g1-news h3,
   .g1-news p {
     color: #cd150b;
   }
@@ -81,13 +81,14 @@
   }
 
   .small-news,
-  .news {
+  .news,
+  .large-news {
     width: inherit;
     padding: 20px 0 9px 0;
     border-bottom: 1px solid #e6e6e6;
   }
 
-  .news-header {
+  .g1-news .news-header {
     display: flex;
     margin-bottom: 18px;
   }
@@ -99,7 +100,9 @@
     margin-right: 14px;
   }
 
-  .g1-title {
+  .g1-title,
+  .ge-title,
+  .gshow-title {
     display: none;
   }
 
@@ -109,5 +112,35 @@
 
   .quote {
     font-size: 16px;
+  }
+
+  /* ge-news & gshow-news */
+  .ge-news {
+    border: none;
+    padding: 0;
+    color: #06aa48;
+  }
+
+  .large-news {
+    width: inherit;
+    margin: 0;
+  }
+
+  .ge-news h3,
+  .ge-news p {
+    color: #06aa48;
+  }
+
+  .gshow-news h3,
+  .gshow-news p {
+    color: #ff8203;
+  }
+
+  .news-header {
+    display: flex;
+  }
+
+  .no-border {
+    border: none;
   }
 }

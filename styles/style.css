@@ -106,10 +106,11 @@ main {
   width: 1250px;
   margin: 34px auto;
   display: flex;
+  justify-content: space-between;
 }
 
 .g1-news {
-  width: 666px;
+  width: 624px;
 }
 
 /* styling headlines */
@@ -140,7 +141,7 @@ h2 {
 /* styling news */
 /* g1-news */
 .horizontal-news-group {
-  width: 666px;
+  width: 624px;
   display: flex;
   justify-content: space-between;
   padding: 25px 0 36px;
@@ -182,4 +183,39 @@ h3 {
   width: 192px;
 }
 
-/* ge-news */
+/* ge-news & gshow-news */
+.ge-news {
+  padding: 0 35px;
+  border-left: 1px solid #EBEDEF;
+  border-right: 1px solid #EBEDEF;
+}
+.large-news {
+  width: 240px;
+  margin-bottom: 50px;
+}
+
+.large-news:last-child {
+  margin-bottom: 0;
+}
+.large-news img {
+  width: 240px;
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.ge-title {
+  color: #16ae54;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+
+.large-news .quote {
+  margin: 10px 0;
+}
+
+.gshow-title {
+  color: #ec8006;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
