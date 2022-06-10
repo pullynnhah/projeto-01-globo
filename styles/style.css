@@ -148,6 +148,7 @@ h2 {
 }
 
 .small-news img {
+  height: 110px;
   border-radius: 12px;
 }
 
@@ -192,6 +193,7 @@ h3 {
   margin-bottom: 0;
 }
 .large-news img {
+  height: 128px;
   border-radius: 12px;
   margin-bottom: 11px;
 }
